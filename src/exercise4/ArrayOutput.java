@@ -4,7 +4,7 @@ public class ArrayOutput {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
         int count=input.nextInt();
-        String output ="";
+        String output ="  ";
         int i=0;
         int []numbers=new int[count];
         for (int index=0;index<numbers.length;index++)

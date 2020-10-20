@@ -4,8 +4,8 @@ public class ArrayOutput {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
         int count=input.nextInt();
-        String output ="  ";
-        int i=0;
+        String output ="";
+
         int []numbers=new int[count];
         for (int index=0;index<numbers.length;index++)
         {
@@ -13,7 +13,7 @@ public class ArrayOutput {
         }
         for (int count2=0;count2< numbers.length;count2++)
         {
-            output+=" ";
+            output+="";
             System.out.println(output+numbers[count2]);
         }
 

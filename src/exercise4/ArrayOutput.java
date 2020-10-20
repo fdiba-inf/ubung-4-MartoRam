@@ -13,8 +13,9 @@ public class ArrayOutput {
         }
         for (int count2=0;count2< numbers.length;count2++)
         {
-            output+=" ";
+
             System.out.println(output+numbers[count2]);
+            output+=" ";
         }
 
 
